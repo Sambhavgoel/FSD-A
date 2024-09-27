@@ -1,6 +1,51 @@
-body{
-    background-color: black;
-}
+
 h1{
     color: white;
+    text-align: center;
+}
+td{
+    color: white;
+    
+}
+input{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    color: white;
+}
+::placeholder{
+    color: aliceblue;
+}
+textarea{
+    background-color: rgba(0,0,0,0.5);
+}
+form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    
+    border-radius: 10px;
+    border-style: groove;
+    border-color: blue;
+    border-width: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+label{
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+}
+input{
+    margin: 10px;
+}
+.video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: -1;
 }
