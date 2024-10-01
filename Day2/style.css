@@ -1,0 +1,16 @@
+body{
+    background-color: green;
+}
+div~p{
+    font-size: 20px;
+}
+div>p {
+    background-color: red;
+}
+div+p{
+    background-color: blueviolet;
+}
+/* child selector(div>p) - only for first/direct descendent */
+/* adjacent sibling(div+p) - only to adjacent element */
+/* general sibling(div~p) - select all the p elements after div */
+/* inline>id>class/attribute>element>universal */

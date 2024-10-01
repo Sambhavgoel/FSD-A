@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.fcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+}
+.fitems{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius:10px ;
+    border-width: 10px;
+    border-style: double;
+    border-color: aqua;
+}
+.item2{
+    order: 2;
+}
